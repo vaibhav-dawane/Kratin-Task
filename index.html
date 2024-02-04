@@ -9,11 +9,17 @@
 <body>
     <div class="container">
         <h1>Wellness Reminder App</h1>
+        
         <div class="button-container">
+            <label for="exerciseTime">Exercise Reminder Time (minutes): </label>
+            <input type="number" id="exerciseTime" placeholder="Enter time in minutes">
             <button class="start-button" onclick="startReminders('exercise')">Start Exercise Reminders</button>
             <button class="stop-button" onclick="stopReminders('exercise')">Stop Exercise Reminders</button>
         </div>
+        
         <div class="button-container">
+            <label for="restTime">Rest Reminder Time (minutes): </label>
+            <input type="number" id="restTime" placeholder="Enter time in minutes">
             <button class="start-button" onclick="startReminders('rest')">Start Rest Reminders</button>
             <button class="stop-button" onclick="stopReminders('rest')">Stop Rest Reminders</button>
         </div>
