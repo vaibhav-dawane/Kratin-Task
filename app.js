@@ -39,6 +39,7 @@ function startReminders(type) {
     alert(type.charAt(0).toUpperCase() + type.slice(1) + ' reminders started for ' + reminderTime + ' minutes!');
 }
 
+
 function stopReminders(type) {
     const intervalToClear = type === 'exercise' ? exerciseInterval : restInterval;
     clearInterval(intervalToClear);
