@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Exercise Reminder App</title>
+    <title>Wellness Reminder App</title>
 </head>
 <body>
     <div class="container">
-        <h1>Exercise Reminder App</h1>
-        <button onclick="startReminders()">Start Reminders</button>
-        <button onclick="stopReminders()">Stop Reminders</button>
+        <h1>Wellness Reminder App</h1>
+        <button onclick="startReminders('exercise')">Start Exercise Reminders</button>
+        <button onclick="stopReminders('exercise')">Stop Exercise Reminders</button>
+        <button onclick="startReminders('rest')">Start Rest Reminders</button>
+        <button onclick="stopReminders('rest')">Stop Rest Reminders</button>
     </div>
     <script src="app.js"></script>
 </body>
